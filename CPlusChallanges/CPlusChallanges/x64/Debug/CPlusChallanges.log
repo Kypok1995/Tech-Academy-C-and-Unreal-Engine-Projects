@@ -1,2 +1,3 @@
 ﻿  CPlusChallanges.cpp
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\CPlusChallanges\CPlusChallanges\CPlusChallanges.cpp(19,9): warning C4101: 'amountofHours': unreferenced local variable
   CPlusChallanges.vcxproj -> C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\CPlusChallanges\x64\Debug\CPlusChallanges.exe
