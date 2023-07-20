@@ -94,4 +94,54 @@ int main()
     cout<<"Rounded 2nd number will be: "<< round(y) <<endl;//use round function to round 2nd number
     cout<<"1st number in 2nd number power will be: "<<pow(x,y)<<endl;//to power 1st number in 2nd number power */
 
+        /*//if, else if else statements
+    if (x > y)
+    {
+        cout<<"1st number is bigger than 2nd number"<<endl;
+    }
+    else if (x < y) 
+    {
+        cout<<"2nd number is bigger than 1st number"<<endl;
+    }
+    
+    else 
+    {
+        cout<<"Numbers are equal"<<endl;
+    }
+    */
+    
+    /*//swith statement
+    
+    switch(x){
+        case 1:
+        cout<<"Your number is 1"<<endl;
+        break;
+        
+        case 2:
+        cout<<"Your number is 2"<<endl;
+        break;
+        
+        default:
+        cout<<"Your number is not 1 and 2"<<endl;
+    }
+    */
+    
+    /*//ternary operator
+    string numberText = (x > 10)? "Number is bigger than 10" : "Number is less or equal than 10";
+    cout<<numberText;*/
+    
+    /*//while loop
+    while(x >y){
+        cout<<x<<endl;
+        --x;
+    }*/
+    
+    /*//do while loop
+    do{
+        cout<<x<<"\n";
+        ++x;
+    }
+    
+    while(x<=10);*/
+
 }
