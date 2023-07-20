@@ -48,13 +48,50 @@ int main()
 
     //Assigment operators
 
-    cout << "Here is assigment operator: " << (x = 10) << x << endl;//print 10 no matter what value was assigned initially
+    /*cout << "Here is assigment operator: " << (x = 10) << x << endl;//print 10 no matter what value was assigned initially
     cout << "Here is addition assignment: " << (x += y) << endl;//add value of y to x
 
     x &= 1;
     cout << "Here is bitwise AND operator: " << x << endl;//perform bitwise AND operation
 
     y <<= 2;
-    cout << "Here is compound assigment operator: " << y  << endl;//perform left shift operation
+    cout << "Here is compound assigment operator: " << y  << endl;//perform left shift operation*/
+
+        //logical operators
+    
+   /* int x,y;
+    cout<<"Please type 2 any whole numbers"<<endl;
+    cin >> x >> y;
+    
+    if (x > 0 && y > 0) { //to use logical AND operator
+        cout <<"Both your numbers are positive!"<< endl;
+    }
+    
+    
+    else if(x==0 || y ==0){ //to use logical OR operator
+        cout<<"Some of your numbers equal to zero..."<<endl;
+    }
+    
+    else if(!(x > 0 && y > 0)){ //to use logical not operator
+        cout<<"Both your numbers are negative..."<<endl;
+    }*/
+    
+    //getline function
+    /*
+    string FullName;
+    cout<< "Type your full name"<<endl;
+    getline(cin, FullName);//to get a full line input, not one word
+    cout<<"Your full name is: " <<FullName;
+    */
+    
+    //math functions, need #include <cmath>
+    /*double x,y;
+    cout<<"Type two  numbers..."<<endl;
+    cin>>x>>y;
+    //cout<<"Biggest number is: "<< max(x,y)<<endl; //to find biggest from two numbers
+    
+    cout<<"Square root of 1st number is: "<< sqrt (x)<<endl;//to calculate square root of the number
+    cout<<"Rounded 2nd number will be: "<< round(y) <<endl;//use round function to round 2nd number
+    cout<<"1st number in 2nd number power will be: "<<pow(x,y)<<endl;//to power 1st number in 2nd number power */
 
 }
