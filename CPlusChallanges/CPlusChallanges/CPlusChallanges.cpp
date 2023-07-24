@@ -3,9 +3,36 @@
 
 #include <iostream>
 #include <string>
+#include <cmath>
 
 
 using namespace std;
+
+void SayHello(){ //void function
+    
+    cout<<"Hello world!"<<endl;
+}
+
+void SquareArea(double length, double width){//function with muptiple parameters
+
+    double area = length * width;
+    cout<<"Area of this square is equal to "<<area<<endl;
+}
+
+int SumOfTwoNumbers (int number1, int number2){//function with return type
+    int result = number1 + number2;
+    return result;
+}
+
+double SumOfTwoNumbers(double number1, double number2){//overloading of the function
+    double result = number1 + number2;
+    return result;
+}
+
+void dublicate(int& x){//passing a function with reference
+    
+    x = x * x;
+}
 
 int main()
 {
