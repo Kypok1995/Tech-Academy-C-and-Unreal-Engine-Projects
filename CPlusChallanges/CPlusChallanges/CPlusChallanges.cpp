@@ -8,6 +8,14 @@
 
 using namespace std;
 
+class Vehicle{//declare a class
+    public:
+    string make;
+    string model;
+    int horsePower;
+};
+
+
 void SayHello(){ //void function
     
     cout<<"Hello world!"<<endl;
@@ -170,5 +178,25 @@ int main()
     }
     
     while(x<=10);*/
+
+//Using a classes
+    /*Vehicle myVehicle;//create an instance of the class
+
+myVehicle.make = "Suzuki";
+myVehicle.model = "SX4";
+myVehicle.horsePower = 140;
+
+cout<<"My vehicle make is: "<<myVehicle.make<<", model is: "<<myVehicle.model
+<<" and it got "<< myVehicle.horsePower<<" horse powers engine"<<endl;
+
+Vehicle nastyaVehicle;//another instance of vehicle class
+
+nastyaVehicle.make = "Toyota";
+nastyaVehicle.model = "Corolla";
+nastyaVehicle.horsePower = 160;
+
+cout<<"Nastya's vehicle make is: "<<nastyaVehicle.make<<", model is: "<<nastyaVehicle.model
+<<" and it got "<< nastyaVehicle.horsePower<<" horse powers engine"<<endl;
+*/
 
 }
