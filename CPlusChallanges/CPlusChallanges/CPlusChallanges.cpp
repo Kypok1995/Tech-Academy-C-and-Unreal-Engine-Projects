@@ -9,15 +9,55 @@
 using namespace std;
 
 class Vehicle{//declare a class
-    public:
+    
+private:
+    int year;
+
+public:
     string make;
     string model;
     int horsePower;
+
+    void SetYear(int y) {//public setter for private variable 
+        year = y;
+    }
+
+    int GetYear() {//public getter for private variable 
+        return year;
+    }
+
+    Vehicle(string x, string y, int z) {// vehicle constructor
+        make = x;
+        model = y;
+        horsePower = z;
+    }
 
 void PrintOut(){//class method
         cout<<"Make of the car is: "<<make<< ", model is: "<<model<<" and it got "<<horsePower<<" horse powers engine"<<endl;
     }
 void Print();
+
+protected:
+    int price;
+};
+
+class RussianCar : public Vehicle {
+public:
+    void Honk() {
+        cout << "Beep-beep" << endl;
+    }
+
+    RussianCar(string x, string y, int z):Vehicle(x,y,z) {
+  //no need to manualy reference properties
+    }
+
+    void SetPrice(int p) {
+        price = p;
+    }
+
+    int GetPrice() {
+        return price;
+    }
 };
 
 void Vehicle::Print(){//method definition outside a class
@@ -71,10 +111,10 @@ int main()
     //cout << greeting << endl;
 
     //utilizing math operators
-    int x, y;
+    /*int x, y;
     cout << "Please type any two whole numbers" << endl;
 
-    cin >> x >> y;
+    cin >> x >> y;*/
 
     //cout << "Result of its addition will be: " << x + y << endl;
     //cout << "Result of its subtraction will be: " << x - y << endl;
@@ -206,4 +246,15 @@ cout<<"Nastya's vehicle make is: "<<nastyaVehicle.make<<", model is: "<<nastyaVe
 <<" and it got "<< nastyaVehicle.horsePower<<" horse powers engine"<<endl;
 */
 
+Vehicle newCar("BMW", "X5", 250);//create a new instance with parameters at initialization
+newCar.PrintOut();
+
+RussianCar GopCar("UAZ", "5", 50);
+
+
+
+newCar.SetYear(2010);//set a private variable 
+//cout << newCar.GetYear() << endl; //get info about year
+
+GopCar.PrintOut();
 }
