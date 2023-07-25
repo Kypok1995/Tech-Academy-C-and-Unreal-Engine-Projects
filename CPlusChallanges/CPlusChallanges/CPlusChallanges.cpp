@@ -60,6 +60,24 @@ public:
     }
 };
 
+class GoodCar{
+    public:
+    void CarRepair(){
+        cout<<"Your car is repaired and ready to go!"<<endl;
+    }
+};
+
+class OldRussianCar: public RussianCar, public GoodCar{
+    public:
+    void BrokeCar(){
+        cout<<"The car is broken, you need to buy a new one"<< endl;
+        SetPrice(0);
+    }
+    OldRussianCar(string x, string y, int z): RussianCar(x,y,z){
+        
+    }
+};
+
 void Vehicle::Print(){//method definition outside a class
     cout<<"Hello world!"<<endl;
 }
@@ -249,9 +267,18 @@ cout<<"Nastya's vehicle make is: "<<nastyaVehicle.make<<", model is: "<<nastyaVe
 Vehicle newCar("BMW", "X5", 250);//create a new instance with parameters at initialization
 newCar.PrintOut();
 
-RussianCar GopCar("UAZ", "5", 50);
+    //usual inheritance 
+/*RussianCar OldCar("Lada", "Vesta", 80);
+OldCar.PrintOut();
+OldCar.SetPrice(50000);
+cout<<OldCar.GetPrice()<<endl;*/
 
-
+//multiple inheritance
+/*OldRussianCar BadCar("UAZ", "Patriot", 50);
+BadCar.PrintOut();
+BadCar.BrokeCar();
+cout<<BadCar.GetPrice()<<endl;
+BadCar.CarRepair();*/
 
 newCar.SetYear(2010);//set a private variable 
 //cout << newCar.GetYear() << endl; //get info about year
