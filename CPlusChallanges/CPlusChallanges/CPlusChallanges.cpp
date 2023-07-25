@@ -13,9 +13,16 @@ class Vehicle{//declare a class
     string make;
     string model;
     int horsePower;
+
+void PrintOut(){//class method
+        cout<<"Make of the car is: "<<make<< ", model is: "<<model<<" and it got "<<horsePower<<" horse powers engine"<<endl;
+    }
+void Print();
 };
 
-
+void Vehicle::Print(){//method definition outside a class
+    cout<<"Hello world!"<<endl;
+}
 void SayHello(){ //void function
     
     cout<<"Hello world!"<<endl;
