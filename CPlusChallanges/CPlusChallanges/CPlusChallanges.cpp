@@ -76,6 +76,11 @@ class OldRussianCar: public RussianCar, public GoodCar{
     OldRussianCar(string x, string y, int z): RussianCar(x,y,z){
         
     }
+    
+    void PrintOut(){//this method use polymorphism to make own implementation of Vehicle class method
+        cout<<"Make of the car is: "<<make<< ", model is: "<<model<<" and it got "
+        <<horsePower<<" horse powers engine and price is: "<< price<<endl;
+    }
 };
 
 void Vehicle::Print(){//method definition outside a class
@@ -284,4 +289,23 @@ newCar.SetYear(2010);//set a private variable
 //cout << newCar.GetYear() << endl; //get info about year
 
 GopCar.PrintOut();
+
+    //exception handling
+/*try{
+    int age;
+    cout<<"Please input your age.\n";
+    cin>>age;
+    
+    if(age >=18){
+        cout<<"Access granted!";
+    }
+    else{
+        throw(age);
+    }
+}
+
+catch(int myNum){
+    cout<<"Access denied, you should be at least 18 years old to access\n";
+    cout<<"Your age is: "<<myNum<<endl;*/
+}
 }
