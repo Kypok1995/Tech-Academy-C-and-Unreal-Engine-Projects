@@ -32,13 +32,13 @@ public:
     }
 
     void PrintOut() {
-        cout << "The dog's breed is: " << breed << " , color is: " << color << " , weight is: " << weight << " pounds and height is: " << height << " feet" << endl;
+        cout << "The dog's breed is: " << breed << " ,color is: " << color << " ,weight is: " << weight << " pounds and height is: " << height << " feet" << endl;
     }
 };
 
 int main()
 {
-    Dog GoodBoy("German Shepard", "Black", 40, 2);
+    Dog GoodBoy("Hound", "Brown", 60, 2);
     GoodBoy.PrintOut();
     GoodBoy.Sit();
     GoodBoy.Shake();
