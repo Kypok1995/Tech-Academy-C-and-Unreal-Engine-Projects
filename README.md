@@ -1,6 +1,7 @@
 # Tech-Academy-C-and-Unreal-Engine-Projects
 Repository for C++ and Unreal Engine projects I made during Tech Academy Bootcamp
-div id="header" align="center">
+<div id="header" align="center">
+ 
   <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="200"/>
 </div>
 
