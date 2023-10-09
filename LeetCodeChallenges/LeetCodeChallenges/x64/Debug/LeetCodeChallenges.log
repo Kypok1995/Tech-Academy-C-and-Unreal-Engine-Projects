@@ -1,0 +1,17 @@
+﻿  LeetCodeChallenges.cpp
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(10,16): error C2061: syntax error: identifier 'vector'
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(11,17): error C2065: 'n': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(12,20): error C2065: 'm': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(12,24): error C2065: 'n': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(15,17): error C2065: 'm': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(16,21): error C2065: 'nums1': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(16,27): error C2065: 'm': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(16,36): error C2065: 'nums2': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(17,21): error C2065: 'nums1': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(17,32): error C2065: 'nums1': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(17,40): error C2065: 'm': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(20,21): error C2065: 'nums1': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(20,32): error C2065: 'nums2': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(24,17): error C2065: 'nums1': undeclared identifier
+C:\Users\Andrei\Documents\GitHub\Tech-Academy-C-and-Unreal-Engine-Projects\LeetCodeChallenges\LeetCodeChallenges\LeetCodeChallenges.cpp(24,28): error C2065: 'nums2': undeclared identifier
